@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string-array name="spinner_values">
+        <item>All</item>
+        <item>Sources</item>
+        <item>Forks</item>
+    </string-array>
+
+</resources>

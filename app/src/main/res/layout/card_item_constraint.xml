@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textStyle="bold"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/linearLayout10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Description: "
+        android:textStyle="bold"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout10"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout10"
+        android:id="@+id/linearLayout12" />
+
+    <TextView
+        android:id="@+id/linearLayout11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout12"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout12"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout12" />
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Created at: "
+        android:textStyle="bold"
+        android:id="@+id/linearLayout9"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout11"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout11" />
+
+    <TextView
+        android:id="@+id/createdAt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/linearLayout9"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/linearLayout9" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updated at: "
+        android:textStyle="bold"
+        tools:layout_conversion_absoluteX="0dp"
+        tools:layout_conversion_absoluteY="49dp"
+        tools:layout_conversion_absoluteWidth="78dp"
+        tools:layout_conversion_absoluteHeight="16dp"
+        tools:layout_editor_absoluteY="49dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/updatedAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_conversion_absoluteX="78dp"
+        tools:layout_conversion_absoluteY="49dp"
+        tools:layout_conversion_absoluteWidth="0dp"
+        tools:layout_conversion_absoluteHeight="16dp"
+        tools:layout_editor_absoluteY="49dp"
+        tools:layout_editor_absoluteX="78dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stargazers count: "
+        android:textStyle="bold"
+        tools:layout_conversion_absoluteX="0dp"
+        tools:layout_conversion_absoluteY="66dp"
+        tools:layout_conversion_absoluteWidth="117dp"
+        tools:layout_conversion_absoluteHeight="16dp"
+        tools:layout_editor_absoluteY="66dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="6dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_conversion_absoluteX="117dp"
+        tools:layout_conversion_absoluteY="66dp"
+        tools:layout_conversion_absoluteWidth="32dp"
+        tools:layout_conversion_absoluteHeight="16dp"
+        tools:layout_editor_absoluteY="66dp"
+        tools:layout_editor_absoluteX="117dp" />
+
+    <TextView
+        android:id="@+id/stargazersCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_conversion_absoluteX="149dp"
+        tools:layout_conversion_absoluteY="66dp"
+        tools:layout_conversion_absoluteWidth="0dp"
+        tools:layout_conversion_absoluteHeight="16dp"
+        tools:layout_editor_absoluteY="66dp"
+        tools:layout_editor_absoluteX="149dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language: "
+        android:textStyle="bold"
+        tools:layout_conversion_absoluteX="0dp"
+        tools:layout_conversion_absoluteY="82dp"
+        tools:layout_conversion_absoluteWidth="69dp"
+        tools:layout_conversion_absoluteHeight="16dp"
+        tools:layout_editor_absoluteY="82dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_conversion_absoluteX="69dp"
+        tools:layout_conversion_absoluteY="82dp"
+        tools:layout_conversion_absoluteWidth="0dp"
+        tools:layout_conversion_absoluteHeight="16dp"
+        tools:layout_editor_absoluteY="82dp"
+        tools:layout_editor_absoluteX="69dp" />
+
+</android.support.constraint.ConstraintLayout>

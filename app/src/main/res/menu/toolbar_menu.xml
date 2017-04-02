@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Сортировать по:">
+        <menu>
+            <item
+                android:id="@+id/sortByName"
+                android:title="Полному имени" />
+            <item
+                android:id="@+id/sortByDate"
+                android:title="Дате создания" />
+        </menu>
+    </item>
+</menu>
